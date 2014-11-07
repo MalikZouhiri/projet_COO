@@ -9,6 +9,7 @@ public class Etudiant {
 	{
 		this.chNom = parNom;
 		this.chNumEtu = parNumEtu;
+		System.out.println("coucou");
 	}
 	
 	public String getNom()
@@ -20,5 +21,11 @@ public class Etudiant {
 	{
 		return chNumEtu;
 	}
+	
+	public Etudiant getEtu(String parNom)
+	{
+		return this;
+	}
 
+	
 }
